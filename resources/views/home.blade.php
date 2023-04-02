@@ -179,13 +179,8 @@
                             @foreach ($dataProduk as $dp)
                                 <div class="owl-item">
                                     <div class="trends_item">
-                                        <div
-                                            class="trends_image d-flex flex-column align-items-center justify-content-center">
-                                            <a data-fslightbox="produk"
-                                                href="{{ asset('/assets/content/min') }}/{{ $dp->thumbnail }}">
-                                                <img src="{{ asset('/assets/content/min') }}/{{ $dp->thumbnail }}"
-                                                    alt="{{ $dp->thumbnail }}" loading="lazy" width="1024px">
-                                            </a>
+                                        <div class="trends_image d-flex flex-column align-items-center justify-content-center">
+                                            <img src="{{ asset('/assets/content/min') }}/{{ $dp->thumbnail }}" alt="{{ $dp->thumbnail }}" loading="lazy" width="1024px">
                                         </div>
                                         <div class="trends_content">
                                             <div class="trends_category pt-2"><a href="#">{{ $dp->kategori }}</a>
