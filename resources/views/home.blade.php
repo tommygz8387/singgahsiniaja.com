@@ -192,7 +192,7 @@
                                             </div>
                                             <div class="trends_info clearfix">
                                                 <div class="trends_name"><a
-                                                        href="product.html">{{ $dp->nama_produk }}</a>
+                                                        href="product.html">{{ $dp->nama }}</a>
                                                 </div>
                                                 @if ($dp->harga !== null)
                                                     <div class="trends_price">Rp.{{ $dp->harga }}</div>
