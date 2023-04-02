@@ -25,6 +25,7 @@ class ProductController extends Controller
     public function descProduct($id)
     {
         //
+        $data['dataProduk'] = Product::orderBy('created_at', 'DESC')->get();
         $decrypted = Crypt::decryptString($id);
         $data['desc'] = Product::find($decrypted);
         // dd($data);
