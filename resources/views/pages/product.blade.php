@@ -40,11 +40,11 @@
                 <div class="product_description">
                     <div class="product_category">{{ $desc->kategori }}</div>
                     <div class="product_name desc">{{ $desc->nama }}</div>
-                    <div class="rating_r rating_r_4 product_rating"><i></i><i></i><i></i><i></i><i></i></div>
+                    {{-- <div class="rating_r rating_r_4 product_rating"><i></i><i></i><i></i><i></i><i></i></div> --}}
                     <div class="product_text">
                         <p>{!! $desc->deskripsi !!}</p>
                     </div>
-                    <div class="order_info d-flex flex-row">
+                    {{-- <div class="order_info d-flex flex-row">
                         <form action="#">
                             <div class="clearfix" style="z-index: 1000;">
 
@@ -92,7 +92,7 @@
                             </div>
 
                         </form>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
 
