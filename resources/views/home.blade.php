@@ -192,19 +192,19 @@
                                             </div>
                                             <div class="trends_info clearfix">
                                                 <div class="trends_name"><a
-                                                        href="product.html">{{ $dp->nama }}</a>
+                                                        href="#">{{ $dp->nama }}</a>
                                                 </div>
                                                 @if ($dp->harga !== null)
                                                     <div class="trends_price">Rp.{{ $dp->harga }}</div>
                                                 @endif
                                             </div>
                                         </div>
-                                        <ul class="trends_marks">
-                                            @if ($dp->discount !== null)
+                                        @if ($dp->discount !== null)
+                                            <ul class="trends_marks">
                                                 <li class="trends_mark trends_discount">-{{ $dp->discount }}%</li>
-                                            @endif
+                                            </ul>
+                                        @endif
                                             <!-- <li class="trends_mark trends_new">new</li> -->
-                                        </ul>
                                     </div>
                                 </div>
                             @endforeach
