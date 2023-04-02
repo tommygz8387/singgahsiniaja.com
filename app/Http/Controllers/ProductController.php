@@ -40,6 +40,7 @@ class ProductController extends Controller
     public function descTrip($id)
     {
         //
+        $data['dataProduk'] = Product::orderBy('created_at', 'DESC')->get();
         $decrypted = Crypt::decryptString($id);
         $data['desc'] = Trip::find($decrypted);
         // dd($data);
