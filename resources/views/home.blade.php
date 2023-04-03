@@ -109,7 +109,7 @@
                                 @endif
                                 <div class="product_name">
                                     <div><a href="{{ route('desc.trip', ['id' => Crypt::encryptString($dt->id)]) }}"
-                                            tabindex="0">{{ $dt->nama }}</a></div>
+                                            tabindex="0" style="text-transform: capitalize">{{ $dt->nama }}</a></div>
                                 </div>
                             </div>
                             @if ($dt->discount !== null)

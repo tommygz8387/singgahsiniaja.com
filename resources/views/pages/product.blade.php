@@ -44,8 +44,8 @@
                     <div class="product_text">
                         <p>{!! $desc->deskripsi !!}</p>
                     </div>
-                    {{-- <div class="order_info d-flex flex-row">
-                        <form action="#">
+                    <div class="order_info d-flex flex-row">
+                        {{-- <form action="#">
                             <div class="clearfix" style="z-index: 1000;">
 
                                 <!-- Product Quantity -->
@@ -90,9 +90,14 @@
                                 <button type="button" class="button cart_button">Add to Cart</button>
                                 <div class="product_fav"><i class="fas fa-heart"></i></div>
                             </div>
-
-                        </form>
-                    </div> --}}
+                            
+                        </form> --}}
+                        <div class="button_container">
+                            <button type="button" class="button cart_button"><a href="https://wa.me/+6289622823800" target="_blank"><i
+                                    class="fab fa-whatsapp"></i> Book Now</a></button>
+                            {{-- <div class="product_fav"><i class="fas fa-heart"></i></div> --}}
+                        </div>
+                    </div>
                 </div>
             </div>
 
