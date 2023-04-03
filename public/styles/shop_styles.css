@@ -1533,11 +1533,11 @@ select option {
 }
 
 .product_name.desc {
-	font-size: 20px;
-	font-weight: 500;
-	color: #000000;
-	white-space: nowrap;
-	text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    white-space: nowrap;
+    text-transform: capitalize;
 }
 
 .product_name div a {
@@ -1545,6 +1545,7 @@ select option {
     font-weight: 400;
     color: #000000;
     white-space: nowrap;
+    text-transform: capitalize;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
     -ms-transition: all 200ms ease;
