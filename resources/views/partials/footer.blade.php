@@ -13,9 +13,9 @@
             </div>
             <div class="footer_social">
                 <ul>
-                    <li><a href="https://www.facebook.com/people/Singgahsiniaja/100091081909961/"><i class="fab fa-facebook-f fa-lg"></i></a></li>
-                    <li><a href="https://www.instagram.com/singgahsiniaja/"><i class="fab fa-instagram fa-lg"></i></a></li>
-                    <li><a href="https://wa.me/+6289622823800"><i class="fab fa-whatsapp fa-lg"></i></a></li>
+                    <li><a href="https://www.facebook.com/people/Singgahsiniaja/100091081909961/" target="_blank"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+                    <li><a href="https://www.instagram.com/singgahsiniaja/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a></li>
+                    <li><a href="https://wa.me/+6289622823800" target="_blank"><i class="fab fa-whatsapp fa-lg"></i></a></li>
                 </ul>
             </div>
         </div>
