@@ -38,7 +38,7 @@
                     <li><a href="#">Home<i class="fas fa-chevron-down"></i></a></li>
                     <li class="hassubs">
                         <a href="#">Super Deals<i class="fas fa-chevron-down"></i></a>
-                        <ul>
+                        {{-- <ul>
                             <li>
                                 <a href="#">Menu Item<i class="fas fa-chevron-down"></i></a>
                                 <ul>
@@ -53,11 +53,11 @@
                             <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
                             <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
                             <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                        </ul>
+                        </ul> --}}
                     </li>
                     <li class="hassubs">
                         <a href="#">Featured Brands<i class="fas fa-chevron-down"></i></a>
-                        <ul>
+                        {{-- <ul>
                             <li>
                                 <a href="#">Menu Item<i class="fas fa-chevron-down"></i></a>
                                 <ul>
@@ -72,11 +72,11 @@
                             <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
                             <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
                             <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                        </ul>
+                        </ul> --}}
                     </li>
                     <li class="hassubs">
                         <a href="#">Pages<i class="fas fa-chevron-down"></i></a>
-                        <ul>
+                        {{-- <ul>
                             <li><a href="#">Shop<i class="fas fa-chevron-down"></i></a></li>
                             <li><a href="#">Product<i class="fas fa-chevron-down"></i></a></li>
                             <li><a href="#">Blog<i class="fas fa-chevron-down"></i></a></li>
@@ -84,7 +84,7 @@
                             <li><a href="#">Regular Post<i class="fas fa-chevron-down"></i></a></li>
                             <li><a href="#">Cart<i class="fas fa-chevron-down"></i></a></li>
                             <li><a href="#">Contact<i class="fas fa-chevron-down"></i></a></li>
-                        </ul>
+                        </ul> --}}
                     </li>
                     <li><a href="#">Blog<i class="fas fa-chevron-down"></i></a></li>
                     <li><a href="#">Contact<i class="fas fa-chevron-down"></i></a></li>

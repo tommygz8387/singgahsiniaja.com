@@ -8,8 +8,9 @@
             <div class="footer_title">For more information</div>
             <div class="footer_phone">+62 896 2282 3800</div>
             <div class="footer_contact_text">
-                <p>Jakarta</p>
-                <p>Indonesia</p>
+                <p>Komplek Perkantoran Duta Merlin,</p>
+                <p>Jl. Gajah Mada No.3-5,</p>
+                <p>Central Jakarta, Indonesia, Jakarta</p>
             </div>
             <div class="footer_social">
                 <ul>
